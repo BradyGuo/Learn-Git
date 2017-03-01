@@ -1,0 +1,16 @@
+Here're some commands:
+	git init								init a repo in local
+	git add <file>							add file to stage
+	git commit -m "message"					commit modify in stage with message to describe
+	git commit --amend						modify the last time commit message
+	git log --pretty=oneline				show logs in a pretty style
+	git reflog								check all commit and its operation
+	git status								show status in stage
+	git reset --hard HEAD"^"				drop the last onetime commit
+	git reset --hard <commit>				back to a commit
+	git reset HEAD <file>					move modify of file from stage to local
+	git checkout -- <file>					give up modify of file in local
+	git rm <file>  git commit -m "message"	delete a file from repo
+	git remote add origin <git server>		connect local repo to a remote repo
+	git push -u origin <branch>				syn local branch with remote branch, only first time need "-u"
+	git clone <git server>					clone a repo from remote repo
