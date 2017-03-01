@@ -13,4 +13,5 @@ Here're some commands:
 	git rm <file>  git commit -m "message"	delete a file from repo
 	git remote add origin <git server>		connect local repo to a remote repo
 	git push -u origin <branch>				syn local branch with remote branch, only first time need "-u"
+	git push -f origin <branch>				override remote repo	
 	git clone <git server>					clone a repo from remote repo
